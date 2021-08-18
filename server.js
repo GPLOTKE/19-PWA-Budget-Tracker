@@ -21,7 +21,7 @@ app.use(express.static("public"));
 // });
 
 mongoose.connect(
-    process.env.MONGODB_URI || "mongodb://localhost/PWA-BudgetTracker", {
+    process.env.MONGODB_URI || "mongodb://localhost/deployBudgetTrackerPWA", {
         useNewUrlParser: true,
         useFindAndModify: false,
         useCreateIndex: true,
